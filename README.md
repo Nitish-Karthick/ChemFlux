@@ -15,6 +15,10 @@ Web:
 Desktop app:
 <img width="2559" height="1455" alt="image" src="https://github.com/user-attachments/assets/7e552aed-01fb-4e9a-9e6d-91c451e84da4" />
 
+## 🚀 Live Demos
+
+* **Web App (Netlify):** [https://chemflux.netlify.app/](https://chemflux.netlify.app/)
+* **Backend API (Render):** [https://chemflux.onrender.com/api/ping/](https://chemflux.onrender.com/api/ping/)
 
 ## Project Structure
 ```
