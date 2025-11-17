@@ -4,3 +4,4 @@ django-cors-headers==4.3.1
 pandas==2.2.2
 numpy==1.26.4
 reportlab==4.1.0
+gunicorn==20.1.0
