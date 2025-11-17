@@ -1,0 +1,26 @@
+/* Dark theme matching web */
+QWidget { background: #0b1020; color: #e5e7eb; font-family: Segoe UI, Roboto, sans-serif; }
+QLabel { background: transparent; }
+QGroupBox { border: 1px solid #1f2937; border-radius: 8px; margin-top: 12px; padding: 10px; }
+QGroupBox::title { subcontrol-origin: margin; left: 10px; padding: 0 4px; color: #e5e7eb; font-size: 14px; font-weight: 700; }
+#Sidebar { background: qlineargradient(x1:0,y1:0,x2:0,y2:1, stop:0 #0f2135, stop:1 #0d1b2a); border-right:1px solid #1f344a; }
+#Logo { background: #0b283f; color: #22d3ee; border: 1px solid #16425b; border-radius: 10px; font-weight: 700; }
+#Nav { background: transparent; border: 1px solid transparent; padding: 10px; text-align: left; border-radius: 8px; }
+#Nav:hover { background: #0a2540; }
+#Topbar { background: qlineargradient(x1:0,y1:0,x2:0,y2:1, stop:0 #0c2136, stop:1 #0b1b2c); border-bottom:1px solid #1f344a; padding: 10px; }
+#TopTitle { font-weight: 800; font-size: 20px; color: #ffffff; letter-spacing: 0.5px; background: transparent; }
+#Avatar { background: #1b2d42; border: 1px solid #25405b; border-radius: 16px; font-weight: 700; }
+QPushButton { background: #13283e; border: 1px solid #25405b; color: #e5e7eb; border-radius: 8px; padding: 8px 12px; }
+QPushButton:hover { background: #0e2136; }
+QPushButton#Primary { background: qlineargradient(x1:0,y1:0,x2:0,y2:1, stop:0 #16b3cd, stop:1 #2292f3); border: 1px solid #1478e1; color: #06131f; font-weight: 700; }
+QLineEdit { background: #0b1020; border: 1px solid #1f2937; border-radius: 6px; padding: 6px; }
+QTableWidget { background: #0b1020; gridline-color: #17334b; selection-background-color: #0e2237; selection-color: #e5e7eb; }
+QTableCornerButton::section { background: #0f2135; border: 1px solid #17334b; }
+QScrollBar:vertical { background: #0b1020; width: 10px; }
+QScrollBar::handle:vertical { background: #1f344a; min-height: 24px; border-radius: 4px; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { background: transparent; height: 0px; }
+QHeaderView::section { background: #0f2135; color: #9fb3c8; padding: 4px; border: 1px solid #17334b; }
+QFrame[card="true"] { background: #0f2135; border: 1px solid #17334b; border-radius: 10px; padding: 10px; }
+#StatValue { font-size: 22px; font-weight: 800; background: transparent; }
+#Hero { background: #0e2237; border: 1px dashed #1f3b59; border-radius: 12px; }
+#HeroSub { color: #94a3b8; }

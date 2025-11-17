@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+venv/
+venv312/
+.env*/
+.DS_Store
+
+# Django
+/media/
+/staticfiles/
+
+# Node
+node_modules/
+web/node_modules/
+web/dist/
+web/.vite/
+web/.env*
+
+# Desktop
+.desktop_env/
+
+# Logs
+*.log
+
+# VSCode/IDE
+.vscode/
+.idea/
+*.iml

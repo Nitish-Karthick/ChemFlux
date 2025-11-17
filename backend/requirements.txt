@@ -1,0 +1,6 @@
+Django==4.2.14
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+pandas==2.2.2
+numpy==1.26.4
+reportlab==4.1.0
