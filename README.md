@@ -10,6 +10,8 @@ Hybrid application that runs as both a Web app (React + Chart.js) and a Desktop 
 
 
 Screenshots!
+
+
 Web:
 <img width="2559" height="1219" alt="image" src="https://github.com/user-attachments/assets/930cc705-65fb-4aad-81a2-83480e1e5c1f" />
 Desktop app:
