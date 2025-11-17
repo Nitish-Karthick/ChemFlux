@@ -8,6 +8,14 @@ Hybrid application that runs as both a Web app (React + Chart.js) and a Desktop 
 - Desktop: PyQt5 + Matplotlib
 - Data: pandas for CSV parsing and analytics
 
+
+Screenshots!
+Web:
+<img width="2559" height="1219" alt="image" src="https://github.com/user-attachments/assets/930cc705-65fb-4aad-81a2-83480e1e5c1f" />
+Desktop app:
+<img width="2559" height="1455" alt="image" src="https://github.com/user-attachments/assets/7e552aed-01fb-4e9a-9e6d-91c451e84da4" />
+
+
 ## Project Structure
 ```
 ChemFlux/
@@ -139,3 +147,6 @@ python desktop/main.py
 - CORS is enabled for common dev ports (5173, 3000). Adjust in `backend/chemflux_backend/settings.py` as needed.
 - The backend stores only the last 5 datasets and deletes older ones automatically.
 - The PDF is generated via reportlab with core summary data.
+Screenshots!
+Web:
+![Uploading image.png…]()
