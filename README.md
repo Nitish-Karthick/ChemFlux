@@ -142,6 +142,27 @@ python desktop/main.py
   ```
 - Log in with the same Django user. Both web and desktop will talk to the same API and share datasets/history.
 
+## Optional: Deploy Web App to Netlify
+
+You can deploy only the **web** frontend (React + Vite) as a static site on Netlify.
+
+1) **Netlify site settings**
+- New Site from Git → select this repo.
+- **Base directory**: `web`
+- **Build command**: `npm run build`
+- **Publish directory**: `dist`
+
+2) **Configure backend API URL**
+- In Netlify → Site settings → Environment variables:
+  - Add `VITE_API_BASE` with the full URL of your Django API, for example:
+    - `https://your-backend-domain.com/api`
+  - This is read by `web/src/api.js` and falls back to `http://127.0.0.1:8000/api` for local dev.
+
+3) **CORS configuration**
+- In `backend/chemflux_backend/settings.py`, add your Netlify URL (e.g. `https://your-site.netlify.app`) to `CORS_ALLOWED_ORIGINS` and `CSRF_TRUSTED_ORIGINS` if you host the backend publicly.
+
+Netlify will rebuild the site on every push to the selected branch.
+
 ## Notes & Assumptions
 - DRF is configured with only BasicAuthentication to avoid CSRF for API POSTs from non-browser clients.
 - CORS is enabled for common dev ports (5173, 3000). Adjust in `backend/chemflux_backend/settings.py` as needed.

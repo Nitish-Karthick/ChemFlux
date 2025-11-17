@@ -1,4 +1,5 @@
-const API_BASE = 'http://127.0.0.1:8000/api'
+// Prefer Vite env (for Netlify / production), fall back to local dev API
+const API_BASE = import.meta.env.VITE_API_BASE || 'http://127.0.0.1:8000/api'
 
 export function getCreds() {
   try { return JSON.parse(localStorage.getItem('chemflux_creds')) } catch { return null }
