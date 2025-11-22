@@ -22,6 +22,13 @@ Desktop app:
 * **Web App (Netlify):** [https://chemflux.netlify.app/](https://chemflux.netlify.app/)
 * **Backend API (Render):** [https://chemflux.onrender.com/api/ping/](https://chemflux.onrender.com/api/ping/)
 
+> **Note:** The backend is hosted on a free tier. Please click the **Backend API** link first to wake it up (it may take 30-60 seconds to load).
+
+## 🔐 Demo Credentials
+To test the live deployment, please use the following credentials:
+* **Username:** `admin`
+* **Password:** `Chemflux@12345`
+
 ## Project Structure
 ```
 ChemFlux/
