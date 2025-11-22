@@ -67,9 +67,10 @@ Summary fields returned include:
 ## Backend – Local Setup (Windows PowerShell)
 From the project root `ChemFlux/`:
 
-1) Activate the pre-created Python 3.12 virtual environment (`venv312`)
+1) Create and Activate a Virtual Environment
 ```
-./venv312/Scripts/Activate.ps1
+python -m venv venv
+.\venv\Scripts\Activate.ps1
 ```
 
 2) Install Python dependencies (first time only)
