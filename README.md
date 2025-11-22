@@ -9,7 +9,7 @@ Hybrid application that runs as both a Web app (React + Chart.js) and a Desktop 
 - Data: pandas for CSV parsing and analytics
 
 
-Screenshots!
+## 📸 Screenshots!
 
 
 Web:
@@ -60,7 +60,7 @@ Summary fields returned include:
 - `columns` and `preview` (first 10 rows)
 
 ## Prerequisites
-- Python 3.12 (project is tested with 3.12 using the `venv312` virtual environment)
+- Python 3.12 
 - Node.js 18+
 - Git (optional for submission)
 
@@ -118,9 +118,9 @@ Features:
 - Download PDF report
 
 ## Desktop App – Local Setup
-The desktop app uses the same `venv312` environment and backend API.
+The desktop app uses the same Python environment and backend API.
 
-1) Ensure `venv312` is activated (see Backend section).
+1) Ensure your venv is activated (see Backend section).
 
 2) Run the desktop app
 ```
@@ -135,7 +135,7 @@ python desktop/main.py
 - Open PowerShell in project root
 - Activate env and run server:
   ```
-  ./venv312/Scripts/Activate.ps1
+  .\venv\Scripts\Activate.ps1
   python backend/manage.py runserver
   ```
 
@@ -149,9 +149,9 @@ python desktop/main.py
 - Open http://127.0.0.1:5173 and log in with your Django user.
 
 3) **Start desktop app (optional)**
-- In a third PowerShell window from project root (with `venv312` activated):
+- In a third PowerShell window from project root (with venv activated):
   ```
-  ./venv312/Scripts/Activate.ps1
+  .\venv\Scripts\Activate.ps1
   python desktop/main.py
   ```
 - Log in with the same Django user. Both web and desktop will talk to the same API and share datasets/history.
